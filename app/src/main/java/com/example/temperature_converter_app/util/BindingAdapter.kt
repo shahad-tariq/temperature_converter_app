@@ -16,4 +16,5 @@ fun changeColor(view: TextView , valueTemperature: Int){
         in 31..40 -> view.setForTextColor(R.color.orange)
         else -> view.setForTextColor(R.color.red)
     }
+    
 }

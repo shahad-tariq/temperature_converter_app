@@ -66,4 +66,5 @@
             app:trackThickness="80dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
+
 </layout>
