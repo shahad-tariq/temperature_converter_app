@@ -11,7 +11,7 @@ import com.google.android.material.progressindicator.LinearProgressIndicator
 @BindingAdapter(value = ["app:ChangeColorByTemperature"])
 fun changeColor(view: LinearProgressIndicator, valueTemperature: Int?) {
     when (valueTemperature) {
-        in Int.MIN_VALUE..0 -> view.setForIndicatorColor(R.color.blue)
+        in Int.MIN_VALUE..1 -> view.setForIndicatorColor(R.color.blue)
         in 0..20 -> view.setForIndicatorColor(R.color.green)
         in 21..30 -> view.setForIndicatorColor(R.color.yellow)
         in 31..40 -> view.setForIndicatorColor(R.color.orange)
