@@ -51,7 +51,7 @@
         <com.google.android.material.progressindicator.LinearProgressIndicator
             android:id="@+id/progressBar"
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="wrap_content"
             android:background="@drawable/ic_progress"
             android:max="1000"
             android:maxLength="1000"
@@ -64,7 +64,7 @@
             app:layout_constraintVertical_bias="0.517"
             app:trackColor="@android:color/transparent"
             app:trackCornerRadius="30dp"
-            app:trackThickness="80dp" />
+            app:trackThickness="60dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
