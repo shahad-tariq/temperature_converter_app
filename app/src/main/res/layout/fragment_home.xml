@@ -46,7 +46,7 @@
             app:layout_constraintBottom_toTopOf="@+id/progressBar"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/editText"
-            app:layout_constraintVertical_bias="0.32" />
+            app:layout_constraintVertical_bias="0.25" />
 
         <com.google.android.material.progressindicator.LinearProgressIndicator
             android:id="@+id/progressBar"
@@ -55,6 +55,7 @@
             android:background="@drawable/ic_progress"
             android:max="1000"
             android:maxLength="1000"
+            android:layout_marginTop="10dp"
             android:progress="@{viewModelHome.temperatureInCelsius}"
             android:rotation="270"
             app:indicatorColor="@color/purple_200"
